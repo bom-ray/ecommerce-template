@@ -1,0 +1,23 @@
+.home{
+ width: 100%;
+ height: 100%;
+ .header{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    max-width: 1234px;
+    margin-inline: auto;
+    padding-block: 1rem;
+    grid-gap: 0.5rem;
+ }
+ .products{
+   display: grid;
+   max-width: 1234px;
+   margin-inline: auto;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 1rem;
+   padding-bottom: 1rem;   
+ }
+ .footer P{
+  text-align: center;
+ }
+}

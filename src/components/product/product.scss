@@ -1,0 +1,43 @@
+@import '../../variables/variables.scss';
+
+.product{
+   color: rgb(61, 56, 56);
+   padding-inline: 1.5rem;
+   padding-top: 1.5rem;
+   padding-bottom: 0.4rem;
+   box-shadow: $box-shadow;
+    .img-wrapper{
+        margin-inline: auto;
+        border-radius: 5px;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .title{
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .star{
+        font-size: 1rem;
+        color: rgba(204, 41, 41, 0.7);
+    }
+    .desc{
+        font-size: 0.9rem;
+        text-overflow: ellipsis;
+        overflow: hidden;
+       
+    }
+    .price{
+        padding-block: 0.2rem;
+    }
+    .cart{
+        padding: 0.25rem;
+        background-color: $logo-color;
+        color: rgba(255, 255, 255, 0.9);
+        border-radius: 4px;
+        box-shadow:  2px 4px 10px 1px rgba(218, 148, 148, 0.47);
+    }
+}
